@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/mainbg.jpeg);
+	background-color: black;
+
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, 0.2);
+	/*background-color: red;*/
+	margin: 50px auto auto auto;
+    width: 85%;
+    padding: 10px;
+    color: white
+}
+
+#headercontact {
+	float: left;
+	width: 50%;
+	text-align: right;	
+}
+
+#headername {
+	float: left;
+	width: 50%;
+	/*margin: 0;
+	padding: 0;*/
+}
+
+.main {
+	background-color: rgba(255, 255, 255, 0.2);
+    margin: 10px auto auto auto;
+    width: 85%;
+    padding: 10px;
+
+}
+
+.news {
+	width: 59%;
+	float: left;
+}
+
+.newspost {
+	background-color: #261C1D;
+	min-height: 200px;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+
+}
+
+
+
+.sides {
+	width: 40%;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.sidespost {
+	background-color: #261C1D;
+	min-height: 150px;
+	padding: 10px;
+	margin-top: 10px;
+	color: white;
+	font-family: 'Archivo Narrow', sans-serif;	
+}
+
+.sidelinkscontainer {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+
+.sidelinks {
+	text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+	font-family: 'Archivo Narrow', sans-serif;
+	color: white;
+}
+
+.sidelinksheader {
+	background-color: black;
+	height: 40px;
+	/*width: 100%;*/
+	/*display: inline-block;*/
+	/*position: relative;*/
+}
+
+#sidelinksheadertitle {
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  	color: white;
+  	font-family: 'Scada', sans-serif;
+}
+
+.newsmain {
+	display: block;
+	margin-top: 10px;
+	/*float: left;*/
+}
+
+.newstitle {
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.newsimagecontainer {
+	/*border: 3px solid lightgrey;*/
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+.newsimage {
+	 max-height: 100%;
+	 max-width: 100%;
+	 border: 3px solid lightgrey;
+}
+
+.newstext {
+	width: 60%;
+	padding-left: 5px;
+	float: left;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 15px;
+}
+
+.newssub {
+  	font-family: 'Scada', sans-serif;
+  	font-size: 12px;
+  	margin: 3px;
+}
+
+.newssub a {
+	text-decoration: none;
+	color: #53D179;
+}
+
+#searchbar {
+	background-color: #261C1D;
+	width: 100%;
+    border: 1px solid #666666;
+    height: 25px;
+    color: white;
+    padding-left: 5px;
+}
